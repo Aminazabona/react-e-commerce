@@ -1,5 +1,5 @@
 import React from "react";
-import { FiSearch, FiUser, FiShoppingCart } from "react-icons/fi";
+import { FiSearch, FiUser, FiHeart, FiShoppingCart } from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -22,10 +22,22 @@ const Header = () => {
         </nav>
 
         {/* Icons */}
-        <div className="flex items-center gap-5 text-[20px]">
-          <FiSearch className="cursor-pointer" />
-          <FiUser className="cursor-pointer" />
-          <FiShoppingCart className="cursor-pointer" />
+        <div className="flex items-center gap-2 text-[20px]">
+          <div className="p-2 rounded-full hover:bg-gray-200 transition cursor-pointer">
+            <FiSearch />
+          </div>
+
+          <div className="p-2 rounded-full hover:bg-gray-200 transition cursor-pointer">
+            <FiUser />
+          </div>
+
+          <div className="p-2 rounded-full hover:bg-gray-200 transition cursor-pointer">
+            <FiHeart />
+          </div>
+
+          <div className="p-2 rounded-full hover:bg-gray-200 transition cursor-pointer">
+            <FiShoppingCart />
+          </div>
         </div>
       </div>
     </header>
