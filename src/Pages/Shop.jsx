@@ -1,8 +1,8 @@
 function Shop() {
   return (
     <div className="h-screen">
-      <p className="text-center m-auto text-9xl">This is the shop page.</p>
-
+      <p className="m-auto text-center text-9xl">This is the shop page.</p>
+    </div>
 
   );
 }
