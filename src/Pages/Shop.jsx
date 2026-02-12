@@ -23,6 +23,7 @@ function Shop() {
   const recommended = products.slice(0, 3);
 
   return (
+
     <div className="w-full font-sans bg-gray-50">
 
       {/* ================= HERO ================= */}
